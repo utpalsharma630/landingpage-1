@@ -1,0 +1,195 @@
+@media screen and (max-width:1024px) {
+    .navbar {
+        width: 90%;
+        gap: 20px;
+        justify-content: start;
+    } 
+    .navbar-content{
+        gap: 30px;
+    }
+    .logo h3{
+        margin-left: 0px;
+    }  
+    .hero{
+        flex-direction:column;
+        width: 90%;
+    }
+    .hero-text h2{
+        width: 90%;
+    }
+    .hero-text p{
+        width: 60%;
+    }
+    .hosting{
+        flex-direction: column;
+        width: 90%;
+    }
+    .hosting-left, .hosting-right{
+        width: 90%;
+    }
+    .service{
+        width: 90%;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .service div p{
+        margin-left: 0px;
+        text-align: center;
+    }
+    .ready{
+        width: 90%;
+    }
+    .ready h2{
+        font-size: 40px;
+    }
+    .starter{
+        width: 90%;
+        grid-gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .real{
+        width: 90%;
+    }
+    .website {
+        width: 90%;
+        flex-direction: column;
+        
+    }
+    .website p {
+        width: 90%;
+       text-align: center;
+        font-size: 12px;
+        
+    }
+    .awesome{
+        width: 90%;
+    }
+    .awesome h2{
+        font-size:50px ;
+
+    }
+    .awesome button{
+        margin-left: 350px;
+    }
+    .footer-section{
+        width: 90%;
+        justify-content: start;
+        gap: 90px;
+    }
+    .footer-right {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .copy {
+        width: 90%;
+        margin: 0;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .navbar-content {
+        flex-direction: column;
+        margin-left: 70px;
+    }    
+}
+@media screen and (max-width:576px){
+    .navbar{
+        width: 95%;
+    }
+    .navbar-content{
+        margin-left: 40px;
+    }
+    .logo {
+        gap: 20px;
+    }
+    .website h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .website p{
+        
+        margin-left: 35px;
+    }
+    .awesome h2 {
+        font-size: 40px;
+    }
+    .awesome button {
+        margin-left: 170px;
+    }
+    .hosting-right {
+        grid-template-columns: repeat(2,1fr);
+
+    }
+    .hero-img img{
+        width: 500px;
+        margin: 0;
+    }
+    .real-right {
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width:320px){
+    .navbar-content i{
+        display: block;
+        font-size: 40px;
+    }
+    .navbar-content ul{
+        display: none;
+    }
+    .hero-text h2 {
+        font-size: 30px;
+    }
+    .hero-btn button {
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    .hero-img img {
+        width: 300px;
+    }
+    .hosting-right {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .service {
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+    .ready h2 {
+        font-size: 25px;
+    }
+    .ready p {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .ready ul {
+        gap: 10px;
+        font-size: 15px;
+    }
+    .starter {
+        
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .real {
+        flex-direction: column;
+    }
+    .real-left-text h2 {
+        font-size: 25px;
+    }
+    .awesome h2 {
+        font-size: 20px;
+    }
+    .website p {
+        margin-left: 25px;
+    }
+    .awesome button {
+        margin-left: 50px;
+    }
+    .footer-right {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .copy h2{
+        font-size: 15px;
+        margin-left: 30px;
+    }
+    .footer-section{
+        gap: 40px;
+    }
+
+}
